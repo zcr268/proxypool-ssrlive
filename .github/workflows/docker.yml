@@ -2,8 +2,6 @@ name: docker
 
 on:
   push:
-    tags-ignore:
-      - v*-*-*
   pull_request:
   workflow_dispatch:
 
@@ -36,4 +34,4 @@ jobs:
           push: true
           platforms: linux/amd64
           context: .
-          tags: ghcr.io/zcr268/proxypool:latest
+          标签: ghcr.io/zcr268/proxypool:latest
